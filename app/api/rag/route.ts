@@ -41,3 +41,8 @@ export async function POST(req: Request) {
 
   return new StreamingTextResponse(stream)
 }
+export const config = {
+    runtime: 'edge',
+    // Bypass Vercel auth for this endpoint
+    unstable_allowDynamic: '/lib/embeddings.ts'
+  }
