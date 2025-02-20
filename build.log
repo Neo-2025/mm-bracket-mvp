@@ -1,0 +1,5 @@
+
+> mm-bracket-mvp@0.1.0 build
+> next build --debug
+
+sh: 1: next: not found
