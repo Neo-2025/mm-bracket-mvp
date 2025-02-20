@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/perplexity": "^1.0.1",
     "@supabase/supabase-js": "^2.48.1",
+    "ai": "^4.1.44",
     "dayjs": "^1.11.13",
     "next": "15.1.7",
     "react": "^19.0.0",
